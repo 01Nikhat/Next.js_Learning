@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export const Navbar =()=>{
-const session = true;
+const session = false;
 
   return <nav className="bg-white shadow-sm">
     <div className="container mx-auto p-4 flex justify-between items-center ">
@@ -12,11 +12,17 @@ const session = true;
       </div>
       <div className="flex items-center space-x-4"
       >
-        
-        <a href="/" className="text-gray-600 hover:text-green-900">
-        Home</a>
-        <a href="/contact/new" className="text-gray-600 hover:text-gray-900">New Contact</a>
-        <a href="/login" className="text-gray-600 hover:text-gray-900">Login</a>
+        {session ? (
+          <>
+            <Link href="/contact" className="hover:text-blue-600 mr-8" >Contact</Link>
+          </>
+        ):(
+          <>
+            <Link href="/login" className="hover:text-blue-600 mr-5">Login</Link>
+            <Link href="/register" className="hover:text-blue-600">Register</Link>
+          </>
+        )}
+       
       </div>
     </div>
   </nav>

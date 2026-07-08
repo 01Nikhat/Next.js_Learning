@@ -1,54 +1,55 @@
 {
-  "contacts" :[
+  "contacts": [
     {
-      "id":"1",
-      "name":"Nikhat Parvin",
-      "email":"nikhat@gmail.com",
-      "userId":"1"
+      "id": "1",
+      "name": "Nikhat Parvin",
+      "email": "nikhat@gmail.com",
+      "userId": "1"
     },
     {
-      "id":"2",
-      "name":"Naaz Parvin",
-      "email":"naaz@gmail.com",
-      "userId":"2"
+      "id": "2",
+      "name": "Naaz Parvin",
+      "email": "naaz@gmail.com",
+      "userId": "2"
     },
     {
-      "id":"3",
-      "name":"Naheed Parvin",
-      "email":"naheed@gmail.com",
-      "userId":"3"
+      "id": "3",
+      "name": "Naheed Parvin",
+      "email": "naheed@gmail.com",
+      "userId": "3"
     },
     {
-      "id":"4",
-      "name":"Naureen Parvin",
-      "email":"naureen@gmail.com",
-      "userId":"4"
+      "id": "4",
+      "name": "Naureen Parvin",
+      "email": "naureen@gmail.com",
+      "userId": "4"
     },
     {
-      "id":"5",
-      "name":"Nasreen Parvin",
-      "email":"nasreen@gmail.com",
-      "userId":"5"
+      "id": "5",
+      "name": "Nasreen Parvin",
+      "email": "nasreen@gmail.com",
+      "userId": "5"
     }
   ],
- " users" :[
-  {
-      "id":"1",
-      "name":"user1",
-      "email":"user1@gmail.com",
-      "password":"123456"
-  },
-  {
-    "id":"2",
-      "name":"user2",
-      "email":"user2@gmail.com",
-      "password":"12345678"
-  },
-  {
-    "id":"3",
-      "name":"user3",
-      "email":"user3@gmail.com",
-      "password":"123456789"
-  }
- ]
+
+  "users": [
+    {
+      "id": "1",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "3",
+      "name": "user3",
+      "email": "user3@gmail.com",
+      "password": "123456789"
+    }
+  ]
 }
